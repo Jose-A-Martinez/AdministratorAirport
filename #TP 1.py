@@ -55,9 +55,9 @@ while cerrar == True :
                         os.system("cls")
                         if opcion == "a":
                             while opcion != "n":
-                                #crea aerolina
-                                crearAerolinea = input("Ingrese aerolina: ")
-                                crearOtra = input("Desea crear otra aerolina? s/n: ")
+                                #crea aerolinea
+                                crearAerolinea = input("Ingrese aerolinea: ")
+                                crearOtra = input("Desea crear otra aerolínea? s/n: ").lower()
                                 if crearOtra == "s":
                                     os.system("cls")
                                     crearAerolinea = input("Ingrese aerolina: ")
